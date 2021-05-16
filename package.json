@@ -1,8 +1,8 @@
 {
   "name": "@organization/lib",
   "description": "Simple library",
-  "version": "0.1.0",
-  "main": "dist/index.cjs.js",
+  "version": "1.0.0",
+  "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "files": [
     "dist/*"

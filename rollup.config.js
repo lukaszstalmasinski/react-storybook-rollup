@@ -29,7 +29,15 @@ const config = {
     }),
     resolve(),
     commonjs(),
-    typescript(),
+    typescript({
+      clean: true,
+      tsconfigOverride: {
+        compilerOptions: {
+          declaration: true,
+        },
+        exclude: ["src/setupTests.ts"],
+      },
+    }),
     image(),
     visualizer(),
   ],
